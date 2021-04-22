@@ -1,0 +1,24 @@
+{
+    "name": "digital-theatre-plus-theme",
+    "displayName": "Digital Theatre+ Theme",
+    "description": "A VS Code theme that uses the brand colours of Digital Theatre+. Because why not.",
+    "publisher": "DigitalTheatre",
+    "repository": { "type": "git", "url": "https://github.com/Digital-Theatre/vscode-theme.git"},
+    "license": "MIT",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.55.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Digital Theatre+",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Digital Theatre+-color-theme.json"
+            }
+        ]
+    }
+}
